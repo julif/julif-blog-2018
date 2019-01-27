@@ -1,0 +1,26 @@
+/* Style all font awesome icons */
+article{background-color: white;padding-bottom: 10px;}
+.thumb img{
+width: 100%;
+}
+.titulo{
+  text-align: center;
+  font-size: 25px;
+}.titulo h2{margin: 0px;}
+.titulo  a{text-decoration: none;color: black;}
+.titulo  a:hover{color :#ebaa42;}
+.details{
+
+
+padding-top: 13px;
+padding-left: 10px;
+/*background-color: #ececec;*/
+}.author{height: 60px;width: 60px;float: left;margin-top: -10px;margin-right: 10px;}
+.author-name{width: 100%;padding-left: 5px;}
+.author-name a{ text-decoration: none; color: black;}
+.author-name a:hover{color :#ebaa42;}
+.date{ height: 30px;}
+.extract{ background-color :#ebaa42;margin: 10px;padding: 10px;background-color: #e8e8e8;border-radius: 10px;}
+
+
+

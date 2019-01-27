@@ -1,0 +1,22 @@
+@media screen and (max-width:800px) {
+
+.tablet-only{display: inherit;}
+.desktop-only{display: none;}
+.mobile-only{display: none;}
+.tabletandsmart{display: inherit;}
+#banner{display: none;}
+.myTopnav{display: none;}
+
+#articles_list{width: 100%;}
+
+/*************************************************************************************/
+#sidebar{ width: 100%;}
+footer .widget{
+  width: 50%;
+  float: left;
+  
+}
+.mini-contenedor{width: 90%;}
+
+
+}

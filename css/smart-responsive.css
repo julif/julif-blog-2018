@@ -1,0 +1,10 @@
+@media screen and (max-width:500px) {
+
+.tablet-only{display: none;}
+.desktop-only{display: none;}
+.mobile-only{display: inherit;}
+.tabletandsmart{display: inherit;}
+footer .widget{width: 100%;}
+.titulo{font-size: 15px;}
+
+}

@@ -1,0 +1,31 @@
+/* Style all font awesome icons */
+
+.thumb img{
+width: 100%;
+}
+article{max-width: 900px;padding: 5px;}
+		.imagen{width: 100%;background-color: blue}
+		.imagen img{width: 100%;}
+		.post-imagen{ 
+			height: 80px;
+			color:white;
+			background-color: rgba(16, 16, 16, 0.8);
+			margin-top: -97px;position: relative;
+			display:-webkit-box;
+			overflow: hidden;
+			padding-top: 15px;
+			background: linear-gradient(to left, rgba(255,0,0,0), rgb(8, 8, 10));
+		}
+		.avatar{width: 80px;height:80px;padding-left: 15px;}
+		.avatar img{}
+		.post-avatar{ height: 80px;width: 100%;}
+		.titulo{ height: 40px; font-size: 35px; overflow: hidden;padding-right: 5px;width: 80%;}
+		.titulo a{color: #f3b044;text-decoration: none;}
+		.titulo a:hover{color: white;}
+		.dateandauthor{ height: 40px;color:#949494;}
+		.dateandauthor a{color: white;text-decoration: none;}
+		.dateandauthor a:hover{color: #f3b044;}
+
+
+
+
