@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>         
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><!-- hacer que el ancho se adapte a dispositivos -->
+	<!-- css -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="blog.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/tablet-responsive.css">
+        <link rel="stylesheet" href="css/smart-responsive.css">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favico.ico">
+
+      </head>
+<body>
+		<div id="mySidenav" class="sidenav">
+ 
+  <h3>Comics</h3>
+      <ul>
+        <li><a href="sobre_mi.html">Nero</a></li>
+        <li><a href="comics.html">END-deviant</a></li>
+      </ul>
+  <h3>Artists</h3>
+      <ul>
+        <li><a href="sobre_mi.html">Julif</a></li>
+        <li><a href="comics.html">Bigsheezy</a></li>
+        
+      </ul>
+
+</div>
+
+	<section class="desktop-only" id="top-nav-bar">
+		<div class="izquierda">
+			<a class="fa fa-bars menu-desktop" onclick="openNav()" id="open-menu-desktop"style="font-size: 35px;" aria-hidden="true"></a> <a class="fa fa-times menu-desktop" onclick="closeNav()"id="close-menu-desktop" style="font-size: 35px;color: red;display: none" aria-hidden="true"></a>  </div><a   href="#"><img src="img/logo.png"></a> 
+		<div class="derecha">
+			<input  class="busqueda" type="text" name="LastName" placeholder="Search">
+			<a href="#" class="search-icon">
+				<i class="fa fa-search" id="myimage" ng-click="que hacer on click"></i>
+			</a>
+		</div>
+	</section>
+
+	<section style="text-align: center;" class="tabletandsmart" id="top-nav-bar"><div class="izquierda">
+			<a class="fa fa-bars menu-desktop" onclick="opentopNav()" id="open-menu-tablet"style="font-size: 35px;" aria-hidden="true"></a> <a class="fa fa-times menu-desktop" onclick="closetopNav()"id="close-menu-tablet" style="font-size: 35px;color: red;display: none" aria-hidden="true"></a>  </div>
+			<a   href="#" ><img class="tablet-only" src="img/logo.png"><img class="mobile-only" style="margin-top: 3px;"src="img/logo2.png"></a> 
+
+			<div class="derecha">
+			<a class="fa  fa-search menu-desktop" onclick="opensearch()" id="open-search-tablet"style="font-size: 35px;" aria-hidden="true"></a> <a class="fa fa-times menu-desktop" onclick="closesearch()"id="close-search-tablet" style="font-size: 35px;color: red;display: none" aria-hidden="true"></a>  </div>
+
+</section>
+<div class="tabletandsmart " style="position:fixed;background-color: blue;width:100%;z-index: 100;">
+ <div  id="myTopsearch" class=" myTopnav" style="display: none">
+<input  class="busqueda2" type="text" name="LastName" placeholder="Search">
+      <a href="#" class="search-icon2">
+        <i class="fa fa-search" id="myimage" ng-click="que hacer on click"></i>
+      </a>
+</div></div>
+	<div class="tabletandsmart " style="position:fixed;background-color: blue;width:100%;z-index: 100;">
+   
+    <div  id="myTopnav" style="display: none" class=" myTopnav" >
+ <div style="display: grid;">
+  <h3>Comics</h3>
+      <ul>
+        <li><a href="sobre_mi.html">Nero</a></li>
+        <li><a href="comics.html">END-deviant</a></li>
+      </ul>
+  <h3>Artists</h3>
+      <ul>
+        <li><a href="sobre_mi.html">Julif</a></li>
+        <li><a href="comics.html">Bigsheezy</a></li>
+        
+      </ul>
+</div>
+</div>
+</div>
+	
+<section id="main">
+	
+	<section id="banner" ></section>
+	<img class="tablet-only" src="img/banner-tablet.png" style="width: 100%;">
+	<img class="mobile-only" src="img/banner-mobile.png" style="width: 100%;">
+
+	<div class="tabletandsmart" style="
+    height: 5px;"></div>
+
+	<section id="publicidad">publicidad</section>
+	<section id="content">
+		<section id="display" style="
+    display: inline-block;
+    width: 100%;
+">
+		<section id="articles_list">
+      <div style="text-align: center;" ><div style="color: white;margin-top:5px;">Blog entrys</div></div>
+			<article>
+	<div class="thumb"><a href=""><img src="img/entrys/1.png"></a><div class="post-imagen"><div class="avatar"><a href=""><img style="height: 60px; width: 60px;"src="img/sheezy-avatar.png"></a></div>
+	<div class="post-avatar"><div class="titulo"><a href="single.html">Testing Testing Testing </a></div><div class="dateandauthor">posted by <a href=""> Bigsheezy </a> sept 5 1945</div></div></div>
+	</div>
+	
+</article>
+<article>
+	<div class="thumb"><a href=""><img src="img/entrys/2.gif"></a><div class="post-imagen"><div class="avatar"><a href=""><img style="height: 60px; width: 60px;"src="img/julif-avatar.png"></a></div>
+	<div class="post-avatar"><div class="titulo"><a href="">Titulo de la entrada que no puede leerse </a></div><div class="dateandauthor">posted by <a href=""> Julif </a> sept 5 1945</div></div></div>
+	</div>
+	
+</article>
+			
+		</section>
+		<section id="sidebar">
+     <div style="color: white;margin-bottom:5px;">Newests pages</div>
+  <a href=""><div class="mini-contenedor"><img src="img/de.png"><div class="post-image">ENDeviant page 7</div></div></a>
+  <a href=""><div class="mini-contenedor"><img src="img/de2.png"><div class="post-image">Nero page 4</div></div></a>
+  <a href=""><div class="mini-contenedor"><img src="img/de3.png"><div class="post-image">Nero page 3</div></div></a>
+		</section>
+	</section></section>
+	<section id="publicidad">publicidad</section>
+	
+	<footer>  <section class="widget"> <h3>Redes sociales</h3>
+      <ul>
+        <li> <a href="https://www.facebook.com/JulifIsBetterThanYourMom/"> Facebook </a></li>
+        <li><a href="https://twitter.com/julian_julif"> Twitter </a></li>
+        <li><a href="http://julif-art.tumblr.com/"> Tumblr </a></li>
+        <li><a href="https://www.youtube.com/channel/UCwtSWyoOXwwfbeekdgmJKew"> Youtube </a></li>
+        <li><a href="https://www.instagram.com/_julif_/"> Instagram </a></li>
+        <li><a href="http://julif-art.deviantart.com/"> Deviantart </a></li>
+        <li><a href="https://ask.fm/juli22f"> Ask </a></li>
+        <li><a href="http://www.julif.besaba.com/"> Pagina web </a></li>
+        <li><a href="https://www.patreon.com/julif"> Patreon </a></li>
+        <li><a href="http://juli22f.blogspot.com.ar/"> Blog </a></li>
+        <li><a href="https://julifblog.wordpress.com/"> Wordpress </a></li>
+        <li><a href="http://skamu.hol.es/"> Skamu </a></li>
+        <li><a href="https://www.designbyhumans.com/shop/julif/"> Tienda </a></li>
+      </ul>
+    </section>
+     <section class="widget"> <h3>Menu Lateral</h3>
+      <ul>
+        <li><a href="sobre_mi.html">Sobre mi</a></li>
+        <li><a href="comics.html">Comics</a></li>
+        <li> <a href="proyectos.html">Proyectos</a></li>
+        <li><a href="pendientes.html">Pendientes</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+      </ul>
+    </section>
+    <section class="widget"> <h3>Menu Lateral</h3>
+      <ul>
+        <li><a href="sobre_mi.html">Sobre mi</a></li>
+        <li><a href="comics.html">Comics</a></li>
+        <li> <a href="proyectos.html">Proyectos</a></li>
+        <li><a href="pendientes.html">Pendientes</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+      </ul>
+    </section>
+    <p id="copyrigth"><b>Edo-comics</b></p>
+  </footer>
+
+  <!-- Boton arriba -->
+  <span class="icon-chevron-up"></span>
+
+	</section>
+</body>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("open-menu-desktop").style.display = "none";
+    document.getElementById("close-menu-desktop").style.display = "inherit";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+     document.getElementById("open-menu-desktop").style.display = "inherit";
+    document.getElementById("close-menu-desktop").style.display = "none";
+}
+//...
+function opentopNav() {
+    document.getElementById("myTopnav").style.display = "inherit";
+    document.getElementById("myTopsearch").style.display = "none";
+  
+    document.getElementById("open-menu-tablet").style.display = "none";
+    document.getElementById("close-menu-tablet").style.display = "inherit";
+    document.getElementById("open-search-tablet").style.display = "inherit";
+    document.getElementById("close-search-tablet").style.display = "none";
+}
+function closetopNav() {
+     document.getElementById("myTopnav").style.display = "none";
+
+     document.getElementById("open-menu-tablet").style.display = "inherit";
+    document.getElementById("close-menu-tablet").style.display = "none";
+}
+//..
+function opensearch() {
+    document.getElementById("myTopsearch").style.display = "inherit";
+    document.getElementById("myTopnav").style.display = "none";
+  
+    document.getElementById("open-search-tablet").style.display = "none";
+    document.getElementById("close-search-tablet").style.display = "inherit";
+     document.getElementById("open-menu-tablet").style.display = "inherit";
+    document.getElementById("close-menu-tablet").style.display = "none";
+}
+function closesearch() {
+    document.getElementById("myTopsearch").style.display = "none";
+  
+    document.getElementById("open-search-tablet").style.display = "inherit";
+    document.getElementById("close-search-tablet").style.display = "none";
+}
+</script>
+</html>
